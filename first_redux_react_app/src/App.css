@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.Search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.Search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Search-button {
+  background-color: #f2ad00;
+  padding: 7px 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Cart-button {
+  width: 50%;
+  background-color: #f2ad00;
+  padding: 10px;
+  padding-right: 15px;
+  font-weight: bold;
+  color: black;
+  font-size: 12px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.Recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container-goods {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.Good-image {
+  border-radius: 50%;
+}

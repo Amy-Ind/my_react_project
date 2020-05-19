@@ -1,0 +1,45 @@
+.recipe {
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.cartImage {
+  border-radius: 50%;
+  max-height: 50px;
+  max-width: auto;
+  object-fit: cover;
+}
+
+.pc {
+  display: grid;
+  grid-template-columns: 20% 30% auto;
+  grid-gap: 20px;
+  text-align: center;
+  background-color: #0085f2;
+  padding: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 30% auto;
+  grid-gap: 1px;
+  background-color: #0085f2;
+  padding: 1px;
+}
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+.item {
+  justify-self: center;
+}
+
+.product-image {
+  width: 100px;
+}
