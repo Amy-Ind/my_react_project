@@ -1,6 +1,3 @@
-import React from "react";
-import theme from "styled-components";
-
 const myTheme = {
   colors: {
     main: "#CDC9EA",

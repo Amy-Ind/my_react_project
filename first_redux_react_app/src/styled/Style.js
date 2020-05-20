@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 const StyledButton = styled.button`
@@ -67,9 +66,7 @@ const TextLight = styled.span`
 
   color: ${(props) => props.theme.colors.darkBlue};
 `;
-const handleAddToCart = () => {
-  console.log(1);
-};
+
 export {
   StyledButton,
   Title,

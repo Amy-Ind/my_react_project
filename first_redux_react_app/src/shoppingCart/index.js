@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { getNumbers } from "../actions/getAction";
-import store from "../store";
 import { Link } from "react-router-dom";
 import { StyledImage } from "../styled/Style";
 const ShoppingCart = (props) => {

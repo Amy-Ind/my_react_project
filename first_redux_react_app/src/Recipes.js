@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import style from "./shared/Recipe.module.css";
-import styled from "styled-components";
 import { StyledButton, TextBold, TextLight } from "./styled/Style";
 import Ingredients from "./Ingredients";
 import { connect } from "react-redux";

@@ -20,17 +20,16 @@ const Home = () => {
     setSearch("");
   };
   useEffect(() => {
+    const getRecipes = async () => {
+      const resp = await fetch(
+        `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEYS}`
+      );
+      const data = await resp.json();
+      setRecipes(data.hits);
+      //console.log(data.hits);
+    };
     getRecipes();
   }, [query]);
-
-  const getRecipes = async () => {
-    const resp = await fetch(
-      `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEYS}`
-    );
-    const data = await resp.json();
-    setRecipes(data.hits);
-    //console.log(data.hits);
-  };
 
   return (
     <div className="App">
