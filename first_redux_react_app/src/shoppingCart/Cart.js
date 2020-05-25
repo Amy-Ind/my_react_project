@@ -2,8 +2,9 @@ import React, { Fragment } from "react";
 import { connect } from "react-redux";
 import styled from "styled-components";
 import style from "../shared/Recipe.module.css";
-import { Title, TotalText } from "../styled/Style";
+import { Title, TotalText, WrapperCenter } from "../styled/Style";
 import { goodsQuantity } from "../actions/goodsQuantity";
+import OrderSubmit from "./OrderSubmit";
 
 const StyledIcon = styled.image`
   font-size: 25px;
@@ -65,6 +66,9 @@ const Cart = (props) => {
       <p>
         <TotalText>Total : {props.cartProps.goodNumbers}</TotalText>
       </p>
+      <WrapperCenter>
+        <OrderSubmit />
+      </WrapperCenter>
     </div>
   );
 };

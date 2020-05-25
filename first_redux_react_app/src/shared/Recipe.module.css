@@ -22,7 +22,9 @@
   background-color: #0085f2;
   padding: 10px;
 }
-
+.errMsg {
+  color: red;
+}
 .container {
   display: grid;
   grid-template-columns: 20% 30% auto;

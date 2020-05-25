@@ -33,6 +33,14 @@ const Wrapper = styled.div`
   flex-flow: row nowrap;
 `;
 
+const WrapperCenter = styled.div`
+  position: absolute;
+
+  left: 80%;
+  margin-top: 20px;
+  margin-right: 50px;
+`;
+
 const MainContent = styled.div`
   background-color: ${(props) => props.theme.colors.blue};
   flex: 1;
@@ -71,6 +79,7 @@ export {
   StyledButton,
   Title,
   Wrapper,
+  WrapperCenter,
   MainContent,
   Sidebar,
   StyledImage,
